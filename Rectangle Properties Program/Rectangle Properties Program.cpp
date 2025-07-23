@@ -53,7 +53,7 @@ void getLength_Width(double& length, double& width)
     cin >> length;
     while (length <= 0) 
     {
-        cout << "Invalid—must be positive. Re-enter length: ";
+        cout << "Invalid - must be positive. Re-enter length: ";
         cin >> length;
     }
 
@@ -61,7 +61,7 @@ void getLength_Width(double& length, double& width)
     cin >> width;
     while (width <= 0) 
     {
-        cout << "Invalid—must be positive. Re-enter width: ";
+        cout << "Invalid - must be positive. Re-enter width: ";
         cin >> width;
     }
 }
